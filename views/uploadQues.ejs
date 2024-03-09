@@ -1,0 +1,31 @@
+<%- include('partials/header')%>
+
+<div class="container upload mt-5">
+    <h1 class="heading upload">Upload Test</h1>
+  
+    <div class="row">
+      <div class="col-sm-8">
+        <div class="card upload">
+          <div class="card-body">
+  
+            <form
+                class="form upload"
+                action="/extracttextfromimage"
+                method="post"
+                enctype="multipart/form-data"
+            >
+                <label for="file"></label>
+            <div class="format"> <input type="file" 
+                class="inputFile"
+                name="file" accept="image/*" required id="" />
+                <button id="submitbtn1" class="btn btnUp upload">Upload</button></div>
+            </form>
+
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+
+<%- include('partials/footer')%>

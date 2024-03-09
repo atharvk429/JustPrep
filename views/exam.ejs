@@ -1,0 +1,32 @@
+<%- include('partials/header') %>
+
+<div class="container exam mt-5">
+  <h1 class="heading exam">Mock Exam</h1>
+
+  <div class="row">
+    <div class="col-sm-8">
+      <div class="card examProb">
+        <div class="card-body ques">
+
+          <% for (let question of data) { %>
+            <h2><%= question.question %></h2>
+            <ul>
+              <% for (let answer of question.answers) { %>
+                <% if (answer) { %>  <li>
+                    <input type="radio" name="q<%= question.question.replace(/\s+/g, '') %>" value="<%= answer %>">
+                    <label for="answer"><%= answer %></label>
+                  </li>
+                <% } %>
+              <% } %>
+            </ul>
+          <% } %>
+          <button type="submit" class="btn exam" >Submit Test</button>
+      
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<%- include('partials/footer') %>

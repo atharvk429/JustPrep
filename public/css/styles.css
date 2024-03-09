@@ -1,0 +1,199 @@
+body {
+    background-color: #E8ECEF;
+    background-image: url('../JustPrep.jpg');
+}
+
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.secret-text {
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #343a40;
+}
+.container{
+    height: 80vh;
+    background:rgb(255,255,255) ;
+    padding: none;
+}
+.card{
+    margin: none;
+}
+.card-body{
+padding: 0
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 7px;
+    border-radius: 7px;
+    background: #edebeb;
+}
+.format{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+height: 40vh;
+margin: 12px
+
+}
+.inputFile{
+    padding: 8px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 7px;
+  background: #212529;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+
+}
+
+
+
+.heading{
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.examQ{
+    text-align: left;
+    font-size: 19px;
+    font-family: ui-sans-serif;
+}
+/* Home */
+.animation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.jum.centered{
+padding-top: 20px;
+padding-left: 30px ;
+text-align: center;
+height: 100vh;
+}
+.container.home {
+    margin-top: 10px;
+    height: 45vh;
+    padding-top: 30px;
+    margin-right: auto;
+  } 
+  /* Login */
+  .container.login {
+    padding-right: 0px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  } 
+  /* Register*/
+  .container.register {
+    height: 90vh;
+    padding-top: 3px;
+    padding-left: 99px;
+  }
+  /* Upload Question */
+
+  .container.upload{
+    background-clip: text;
+    color: white;
+  }
+
+  .card.upload{
+    border: none;
+    background-clip: text;
+  }
+  .card-body{
+    margin-top: 20px;
+    margin-right: auto;
+  }
+
+  .btn.btnUp{
+    padding: 8px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-top: 15px;
+  margin-bottom: 7px;
+  margin-right: auto;
+  background: #343a40;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+
+  color: white;
+}
+.btn.btnUp:hover{
+    background-color:  #000;
+}
+.form.upload{
+    height: 60vh;
+}
+
+
+
+  /* Exam */
+  .card-body.ques {
+    width: 100vh;
+    font-size: 17px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;}
+    .col-sm-8 {
+       
+        max-width: 100%;
+    }
+    .container.exam{
+        height: 100vh;
+    }
+    .card.examProb{
+        height: 80vh;
+    }
+    .btn.exam{
+        
+            border: solid;
+            padding: 7px;
+            border-radius: 7px;
+            font-size: 15px;
+            cursor: pointer;
+            margin-left: auto;
+            background-color: #343a40;
+            color: white;
+          
+    }
+    .btn.exam:hover{
+        background-color: #000;
+        
+    }
+    ul{
+        list-style-type: none;
+    }
+
+
+    /* account */
+    .form.upload{
+        margin-right: auto;
+        background-clip: text;
+    }
+    .btn.btnUp.account{
+        margin-top: 45px;
+        margin-left: auto;
+     
+    }
+    .account{
+        align-items: center;
+        font-size: 2rem;
+        margin-left: auto;
+        padding: 54px;
+    color:white
+    }
+    .account.p{
+        font-size: 2rem;
+        font-weight: 200;
+    }
